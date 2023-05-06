@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:blueviolet ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Start Heading */
+.heading h1 {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin-left: 150px;
+    top: 45px;
+}
+.heading span {
+    color: rgb(247, 179, 7);
+}
+.heading p {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    margin-left: 150px;
+}
+/* End Heading */
+/* Start Landing */
+
+.landing .left {
+    width: 500px;
+    height: 550px;
+    background-color: #eee;
+    border-radius: 18px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.landing .left h1 {
+    position: relative;
+    top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    color: #444;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px darkgoldenrod;
+}
+.landing .left span {
+    color: rgb(238, 178, 28);
+}
+.landing .left p {
+    position: relative;
+    top: 70px;
+    color: #444;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.landing .left hr {
+    position: relative;
+    top: 70px;
+    color: #f6f6f6;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.landing .left h2 {
+    position: relative;
+    top: 65px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #0c1c31;
+}
+.landing .left h2 span {
+    font-size: 15px;
+    color: #0c1c31;
+}
+.landing .left h2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 150px;
+    background-color: goldenrod;
+    padding: 18px;
+    border-radius: 4px;
+}
+.landing .left h2 a:hover {
+    background-color: #eee;
+    color: goldenrod;
+    outline: 2px solid goldenrod;
+    transition: 0.6s;
+}
+.landing .right {
+    width: 450px;
+    height: 400px;
+    background-color: #eee;
+    border-radius: 18px;
+    margin-top: 100px;
+    margin-left: 620px;
+    position: relative;
+    top: -570px;
+    z-index: -1;
+}
+.landing .right h1 {
+    margin-left: 60px;
+    position: relative;
+    top: 50px;
+}
+.landing .right span i {
+    color: rgb(223, 190, 5);
+}
+.landing .right p {
+    position: relative;
+    top: 70px;
+    color: #444;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.landing .right hr {
+    position: relative;
+    top: 70px;
+    color: #f6f6f6;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.landing .right h2 {
+    position: relative;
+    top: 65px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #0c1c31;
+}
+.landing .right h2 span {
+    font-size: 15px;
+    color: #0c1c31;
+}
+.landing .right h2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 150px;
+    background-color: goldenrod;
+    padding: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.landing .right h2 a:hover {
+    background-color: #eee;
+    color: goldenrod;
+    outline: 2px solid goldenrod;
+    transition: 0.6s;
+}
+@media (max-width:600px) {
+    .heading {
+        position: relative;
+        left: 30px;
+    }
+    .landing .left {
+        position: relative;
+        right: 100px;
+    }
+    .landing .right {
+        position: relative;
+        top: -80px;
+        right: 550px;
+    }
+    }
+/* End Landing */
